@@ -1,4 +1,5 @@
 ﻿using LojaProjeto.Models;
+using MySql.Data.MySqlClient;
 
 public class ProdutoRepositorio : IProdutoRepositorio
 {
@@ -83,6 +84,6 @@ public class ProdutoRepositorio : IProdutoRepositorio
         cmd.ExecuteNonQuery();
     }
 }
-}public interface IProdutoRepositorio
+public interface IProdutoRepositorio
 {
 }
